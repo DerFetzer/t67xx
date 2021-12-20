@@ -1,0 +1,28 @@
+[package]
+name = "t67xx"
+authors = ["DerFetzer <kontakt@der-fetzer.de>"]
+version = "0.1.0"
+repository = "https://github.com/DerFetzer/t67xx"
+license = "MIT OR Apache-2.0"
+description = "Driver for Telaire T67XX CO2 sensor modules."
+readme = "README.md"
+keywords = ["gas", "air", "quality", "sensor", "embedded-hal-driver"]
+categories = ["embedded", "hardware-support", "no-std"]
+homepage = "https://github.com/DerFetzer/t67xx"
+documentation = "https://docs.rs/t67xx"
+include = [
+    "/**/*.rs",
+    "/Cargo.toml",
+    "/README.md",
+    "/LICENSE-MIT",
+    "/LICENSE-APACHE",
+]
+edition = "2021"
+
+[dependencies]
+device-driver = "0.3.0"
+embedded-hal = "0.2.6"
+num_enum = { version = "0.5.1", default-features = false }
+
+[dev-dependencies]
+linux-embedded-hal = "0.3"
