@@ -1,7 +1,7 @@
 [package]
 name = "t67xx"
 authors = ["DerFetzer <kontakt@der-fetzer.de>"]
-version = "0.1.0"
+version = "0.1.1"
 repository = "https://github.com/DerFetzer/t67xx"
 license = "MIT OR Apache-2.0"
 description = "Driver for Telaire T67XX CO2 sensor modules."
