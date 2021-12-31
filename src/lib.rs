@@ -1,5 +1,6 @@
 #![doc = include_str!("../README.md")]
 #![no_std]
+#![forbid(missing_docs)]
 #![forbid(unsafe_code)]
 
 use device_driver::ll::register::RegisterInterface;

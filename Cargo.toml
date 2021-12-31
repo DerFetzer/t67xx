@@ -20,7 +20,7 @@ include = [
 edition = "2021"
 
 [dependencies]
-device-driver = "0.3.0"
+device-driver = "0.3.1"
 embedded-hal = "0.2.6"
 num_enum = { version = "0.5.1", default-features = false }
 
